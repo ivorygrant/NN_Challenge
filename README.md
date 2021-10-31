@@ -28,7 +28,7 @@ The purpose of this analysis is to practice modeling with Neural Networks.
 
 
         ![Summary of Model](Initial_Model_Summary.png)  
-              
+
 
         * Analysis: I initially used a conservative two layer neural network. The first layer had 80 neurons and the second had 30. Both hidden layers used a 'relu' activation function because that is the most common activation function in use. The output layer used a sigmoid function by design: I want to preduct the probability of a certain output (if the donor parameters lead to a successful result).
 
@@ -74,4 +74,4 @@ The purpose of this analysis is to practice modeling with Neural Networks.
 
 ## Summary
 
-In short, even with additional modifications to the model, I was unable to reach the 75% target. The next step in this analysis would be to utilize a different ML algorithm. The first algorithm I would use is a Random Forest. It can combine many predictions into one model. It could easily be used with the current dataset. And is computationally cheaper than than a Neural Network. 
+In short, even with additional modifications to the model, I was unable to reach the 75% target. The next step in this analysis would be to utilize a different ML algorithm. The first algorithm I would use is a Random Forest. It can combine many predictions into one model. It could easily be used with the current dataset. And is computationally cheaper than a Neural Network. 
