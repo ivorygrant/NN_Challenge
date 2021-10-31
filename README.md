@@ -8,36 +8,44 @@ The purpose of this analysis is to practice modeling with Neural Networks.
 
 * Data Preprocessing
 
-    1. Target variable:
+    1. Target variable: IS_SUCCESSFUL
 
-    2. Feature variables: 
+    2. Feature variables: STATUS, ASK_AMT, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS
 
-    3. Removed variables: 
+    3. Removed variables: EIN and NAME
 
 * Compiling, Training, and Evaluating the Model
 
     1. Model Parameters
 
-        * Neurons:
+        * Neurons: 80, 30
 
-        * Layers: 
+        * Layers: 2
 
-        * Activation Function:
+        * Activation Function: relu in first and second layer, sigmoid in output layer
+
+        * Analysis: I initially used a conservative two layer neural network. The first layer had 80 neurons and the second had 30. Both hidden layers used a 'relu' activation function because that is the most common activation function in use. The output layer used a sigmoid function by design: I want to preduct the probability of a certain output (if the donor parameters lead to a successful result).
 
     2. Target Model Performance
 
-        * Goal:
+        * Goal: 75%
 
-        * Actual:
+        * Actual: 73%
 
-        * Analysis:
+        * Analysis: I trained the model using 50, then 100 epochs. Both times I received a 73% accuracy score.
 
     3. Additional Performance Steps:
 
-        * 
+        * Step 1: I added an additional hidden layer with 25 neurons using a relu activation function. I kept the first two layers the same. After training on 100 epochs, I received the same 73% score.
 
-        * 
+        * Step 2: In addition to step 1, I increased the number of neurons in each layer as such:
 
-        * 
+            * Layer 1: 90
+            * Layer 2: 40
+            * Layer 3: 35
+
+        However, this did not lead to a better accuracy score. The model gave a similar accuracy score from the previous step.
+
+        * Step 3:
 
 ## Summary
