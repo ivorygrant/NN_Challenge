@@ -38,7 +38,9 @@ The purpose of this analysis is to practice modeling with Neural Networks.
 
         * Step 1: I added an additional hidden layer with 25 neurons using a relu activation function. I kept the first two layers the same. After training on 100 epochs, I received the same 73% score.
 
+
         ![Results for Step 1](Optimization_1_results.png)
+
 
         * Step 2: In addition to step 1, I increased the number of neurons in each layer as such:
 
@@ -48,6 +50,10 @@ The purpose of this analysis is to practice modeling with Neural Networks.
 
             However, this did not lead to a better accuracy score. The model gave a similar accuracy score from the previous step.
 
+
+        ![Results for Step 1](Optimization_2_results.png)
+
+        
         * Step 3: Using step 2 as a foundation, I changed the activation functions and neurons for all hidden layers (output layer remains the same):
 
             * Layer 1: 75 neurons and tanh activation
@@ -55,6 +61,10 @@ The purpose of this analysis is to practice modeling with Neural Networks.
             * Layer 3: 35 neurons and tanh activation
 
             Unfortunately, this still did not result in any noticeable improvement. After these three steps, I was unable to reach the target 75% model performance. 
+
+
+        ![Results for Step 1](Optimization_3_results.png)
+
 
 ## Summary
 
