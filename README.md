@@ -44,8 +44,12 @@ The purpose of this analysis is to practice modeling with Neural Networks.
             * Layer 2: 40
             * Layer 3: 35
 
-        However, this did not lead to a better accuracy score. The model gave a similar accuracy score from the previous step.
+            However, this did not lead to a better accuracy score. The model gave a similar accuracy score from the previous step.
 
-        * Step 3:
+        * Step 3: Using step 2 as a foundation, I changed the activation functions and neurons for all hidden layers (output layer remains the same):
+
+            * Layer 1: 75 neurons and tanh activation
+            * Layer 2: 45 neurons and tanh activation
+            * Layer 3: 35 neurons and tanh activation
 
 ## Summary
