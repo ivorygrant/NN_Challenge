@@ -38,6 +38,8 @@ The purpose of this analysis is to practice modeling with Neural Networks.
 
         * Step 1: I added an additional hidden layer with 25 neurons using a relu activation function. I kept the first two layers the same. After training on 100 epochs, I received the same 73% score.
 
+        ![Results for Step 1](Optimization_1_results.png)
+
         * Step 2: In addition to step 1, I increased the number of neurons in each layer as such:
 
             * Layer 1: 90
@@ -52,4 +54,8 @@ The purpose of this analysis is to practice modeling with Neural Networks.
             * Layer 2: 45 neurons and tanh activation
             * Layer 3: 35 neurons and tanh activation
 
+            Unfortunately, this still did not result in any noticeable improvement. After these three steps, I was unable to reach the target 75% model performance. 
+
 ## Summary
+
+In short, even with additional modifications to the model, I was unable to reach the 75% target. The next step in this analysis would be to utilize a different ML algorithm. The first algorithm I would use is a Random Forest. It can combine many predictions into one model. It could easily be used with the current dataset. And is computationally cheaper than than a Neural Network. 
