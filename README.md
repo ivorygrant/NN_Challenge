@@ -34,10 +34,10 @@ The purpose of this analysis is to practice modeling with Neural Networks.
 
     3. Additional Performance Steps:
 
-        1. 
+        * 
 
-        2. 
+        * 
 
-        3. 
+        * 
 
 ## Summary
