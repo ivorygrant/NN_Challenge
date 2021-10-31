@@ -24,6 +24,12 @@ The purpose of this analysis is to practice modeling with Neural Networks.
 
         * Activation Function: relu in first and second layer, sigmoid in output layer
 
+        * Model Summary: 
+
+
+        ![Summary of Model](Initial_Model_Summary.png)  
+              
+
         * Analysis: I initially used a conservative two layer neural network. The first layer had 80 neurons and the second had 30. Both hidden layers used a 'relu' activation function because that is the most common activation function in use. The output layer used a sigmoid function by design: I want to preduct the probability of a certain output (if the donor parameters lead to a successful result).
 
     2. Target Model Performance
